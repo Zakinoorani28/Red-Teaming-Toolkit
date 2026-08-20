@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data & Persistence
+chroma_db/
+reports/*.json
+reports/*.md
+!reports/.gitkeep
+data/figures/
+
+# Distribution & Build
+dist/
+build/
+*.egg-info/
+
+# Streamlit & IDE
+.streamlit/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
